@@ -156,19 +156,20 @@
     &.expand {
       .nav-opener {
         align-items: center;
+        padding: 0.5rem;
         padding-left: 1.1rem;
         padding-right: 0.5rem;
 
         .bar {
           &:nth-child(1) {
-            transform: rotate(42deg);
+            transform: rotate(40deg);
             transform-origin: top left;
           }
           &:nth-child(2) {
             width: 0;
           }
           &:nth-child(3) {
-            transform: rotate(-42deg);
+            transform: rotate(-40deg);
             transform-origin: bottom left;
           }
         }
