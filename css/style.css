@@ -478,7 +478,7 @@ main {
     border-radius: 0;
   }
   .header .hero #slider {
-    flex-basis: 350px;
+    flex-basis: 300px;
     width: 100%;
     border: none;
     margin: 0;
