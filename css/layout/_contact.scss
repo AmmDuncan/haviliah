@@ -1,0 +1,203 @@
+.contact {
+  position: relative;
+  margin-top: -35rem;
+
+  .bg {
+    background: $color-primary-700;
+    clip-path: polygon(0% 40%, 100% 0%, 100% 100%, 0% 100%);
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    z-index: 0;
+    bottom: 0;
+  }
+
+  &__body {
+    z-index: 100;
+    position: relative;
+    background: #fff;
+    max-width: 1088px;
+    border-radius: 4px;
+    display: flex;
+    padding: 8px 8px;
+    box-sizing: border-box;
+
+    .details {
+      flex: 1 1 60%;
+      padding: 5rem;
+      box-sizing: inherit;
+
+      .list {
+        position: relative;
+        margin-bottom: 3rem;
+
+        .item {
+          display: flex;
+          align-items: center;
+
+          .label {
+            display: flex;
+            color: $color-primary;
+            font-weight: 600;
+
+            svg {
+              margin-right: 8px;
+            }
+          }
+
+          .value {
+            padding: 12px;
+            color: $color-text-700;
+            text-decoration: underline;
+          }
+        }
+
+        :after {
+          content: "";
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: -1rem;
+          height: 2px;
+          width: 6rem;
+          background: $color-primary-700;
+        }
+      }
+
+      .socials {
+        display: flex;
+        justify-content: center;
+
+        & > * {
+          padding: 0.25rem;
+        }
+      }
+    }
+
+    .summary {
+      flex: 1 1 40%;
+      padding: 8.5rem 4rem;
+      box-sizing: inherit;
+      position: relative;
+
+      .bg {
+        // background: $color-primary-700;
+        background-image: radial-gradient(
+          circle at 90% 100%,
+          rgba($color-primary, 0.3) 0%,
+          $color-primary-700 100%
+        );
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        border-radius: 4px;
+        z-index: -10;
+      }
+
+      .first {
+        width: 20%;
+        height: 90%;
+        position: absolute;
+        left: -1.2rem;
+        transform: rotate(-5deg);
+        bottom: 4px;
+        background: $color-primary;
+        border-radius: 4px;
+        z-index: -20;
+      }
+
+      .second {
+        width: 20%;
+        height: 80%;
+        position: absolute;
+        left: -2.2rem;
+        transform: rotate(-10deg);
+        bottom: 4px;
+        background: $color-primary-100;
+        border-radius: 4px;
+        z-index: -30;
+      }
+
+      h2 {
+        color: #fff;
+        font-size: $font-size-heading-secondary;
+        font-style: italic;
+        font-weight: 700;
+        position: relative;
+        margin-bottom: 5rem;
+        text-transform: uppercase;
+
+        &:after {
+          content: "";
+          position: absolute;
+          background: #fff;
+          left: 0;
+          bottom: -1.5rem;
+          height: 4px;
+          width: 92px;
+        }
+      }
+
+      p {
+        color: #fff;
+        line-height: 1.6;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 890px) {
+    &__body {
+      flex-flow: column-reverse;
+
+      .summary {
+        padding: 4rem 1rem;
+
+        .first {
+          height: 60%;
+          width: 70%;
+          transform: rotate(-4deg);
+          transform-origin: bottom right;
+          left: auto;
+          right: 0;
+        }
+
+        .second {
+          height: 60%;
+          width: 60%;
+          transform: rotate(-8deg);
+          transform-origin: bottom right;
+          right: 0;
+          left: auto;
+        }
+
+        h2,
+        p {
+          max-width: 500px;
+          width: 85%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+
+      .details {
+        padding: 5rem 1rem 3rem;
+
+        .list {
+          max-width: 500px;
+          width: 85%;
+          margin-left: auto;
+          margin-right: auto;
+
+          .item:last-child {
+            .value {
+              word-break: break-word;
+            }
+          }
+        }
+      }
+    }
+  }
+}
