@@ -249,14 +249,15 @@ main {
   background: rgba(120, 9, 81, 0.6);
 }
 .nav a.btn {
-  width: 0;
+  max-width: 0;
   overflow: hidden;
   padding: 1.25rem 0;
   box-sizing: border-box;
-  white-space: no-wrap;
-  font-size: 0;
+  overflow-x: hidden;
+  white-space: nowrap;
   max-height: 63px;
   background: #c72b04;
+  font-size: 1rem;
   color: #fff;
   text-transform: uppercase;
   font-weight: 600;
@@ -266,8 +267,8 @@ main {
 .nav a.btn.show {
   display: inline-block;
   padding: 1.25rem 1.5rem;
+  max-width: 170px;
   width: auto;
-  font-size: 1rem;
 }
 .nav a.btn span {
   margin-left: 4px;
@@ -300,6 +301,7 @@ main {
   .nav ul a.btn {
     display: inline-block;
     padding: 1.25rem 1.5rem;
+    max-width: 100%;
     width: auto;
     font-size: 1rem;
   }
