@@ -192,6 +192,12 @@
       ul {
         max-height: 300px;
         padding-top: 1rem;
+
+        li {
+          a {
+            width: 100%;
+          }
+        }
       }
     }
   }

@@ -408,6 +408,9 @@ main {
     max-height: 300px;
     padding-top: 1rem;
   }
+  .nav.expand ul li a {
+    width: 100%;
+  }
 }
 
 .header .hero {
