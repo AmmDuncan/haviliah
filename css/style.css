@@ -410,6 +410,7 @@ main {
   }
   .nav.expand ul li a {
     width: 100%;
+    box-sizing: border-box;
   }
 }
 
