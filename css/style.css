@@ -347,7 +347,6 @@ main {
   }
   .nav ul li.active {
     border-bottom: none;
-    border-left: 4px solid #c72b04;
     background: rgba(120, 9, 81, 0.4);
   }
   .nav ul a.btn {

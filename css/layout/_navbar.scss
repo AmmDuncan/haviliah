@@ -114,7 +114,7 @@
       li {
         &.active {
           border-bottom: none;
-          border-left: 4px solid $color-secondary;
+          // border-left: 4px solid $color-secondary;
           background: rgba($color-primary, 0.4);
         }
       }
