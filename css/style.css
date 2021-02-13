@@ -357,6 +357,9 @@ main {
     width: 100%;
     font-size: 1rem;
   }
+  .nav ul a.btn.show {
+    width: 100%;
+  }
   .nav-brand-container .nav-opener {
     align-self: stretch;
     display: flex;
