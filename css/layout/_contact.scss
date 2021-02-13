@@ -133,16 +133,17 @@
         &:after {
           content: "";
           position: absolute;
-          background: #fff;
+          // background: #fff;
+          background: $color-secondary;
           left: 0;
           bottom: -1.5rem;
-          height: 4px;
+          height: 2px;
           width: 92px;
         }
       }
 
       p {
-        color: #fff;
+        color: rgba($color-bg, 0.8);
         line-height: 1.6;
       }
     }

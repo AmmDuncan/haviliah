@@ -354,7 +354,7 @@ main {
     display: inline-block;
     padding: 1.25rem 1.5rem;
     max-width: 100%;
-    width: auto;
+    width: 100%;
     font-size: 1rem;
   }
   .nav-brand-container .nav-opener {
@@ -741,14 +741,14 @@ main {
 .contact__body .summary h2:after {
   content: "";
   position: absolute;
-  background: #fff;
+  background: #c72b04;
   left: 0;
   bottom: -1.5rem;
-  height: 4px;
+  height: 2px;
   width: 92px;
 }
 .contact__body .summary p {
-  color: #fff;
+  color: rgba(241, 229, 238, 0.8);
   line-height: 1.6;
 }
 @media only screen and (max-width: 890px) {
