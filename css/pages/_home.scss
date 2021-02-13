@@ -9,6 +9,10 @@ main {
 }
 
 .section {
-  padding: 7rem 0;
+  padding: 6rem 0;
   width: 100%;
+
+  @media only screen and (max-width: 576px) {
+    padding: 4rem 0;
+  }
 }
