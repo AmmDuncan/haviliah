@@ -474,14 +474,14 @@ main {
     margin-left: 0;
     margin-left: 2rem;
     margin-top: -8.5rem;
-    max-width: 330px;
+    max-width: 300px;
     background: rgba(77, 13, 53, 0.93);
     backdrop-filter: blur(1rem);
-    font-size: 2.7rem;
+    font-size: 2.4rem;
     line-height: 1.1;
   }
   .header .hero .content h1 .cursive {
-    font-size: 2.281rem;
+    font-size: 1.602rem;
   }
   .header .hero .content h1:before {
     left: 0;
