@@ -195,10 +195,62 @@ main {
   }
 }
 
+.gallery {
+  display: flex;
+  margin-top: 5rem;
+  flex-flow: row wrap;
+}
+.gallery a {
+  display: inline-block;
+  flex: 1 1 30%;
+  margin: 0.2rem;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  transition: 0.3s ease-out;
+}
+.gallery a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.gallery a:nth-child(5n+0) {
+  flex-basis: 63%;
+}
+.gallery a:last-child {
+  flex-grow: 0;
+}
+.gallery a:after {
+  content: "View";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(199, 43, 4, 0);
+  display: flex;
+  place-content: center;
+  place-items: center;
+  color: white;
+  transition: 0.2s ease-out;
+  transform: translateY(100%);
+}
+.gallery a:hover::after {
+  background: rgba(199, 43, 4, 0.7);
+  transform: translateY(0);
+}
+@media only screen and (max-width: 767px) {
+  .gallery a {
+    flex-basis: 48%;
+  }
+}
+
 .nav {
   display: flex;
   flex-flow: row nowrap;
   position: fixed;
+  top: 0;
   width: 100%;
   align-items: center;
   justify-content: space-between;
