@@ -202,7 +202,7 @@ main {
   width: 100%;
   align-items: center;
   justify-content: center;
-  background: #45052e;
+  background: #5e0c63;
   z-index: 5000;
   min-height: 60px;
   font-size: 1rem;
@@ -246,7 +246,7 @@ main {
   font-weight: 600;
 }
 .nav ul li:hover {
-  background: rgba(120, 9, 81, 0.6);
+  background: rgba(131, 3, 143, 0.6);
 }
 .nav a.btn {
   width: 0;
@@ -294,7 +294,7 @@ main {
   .nav ul li.active {
     border-bottom: none;
     border-left: 4px solid #c72b04;
-    background: rgba(120, 9, 81, 0.4);
+    background: rgba(131, 3, 143, 0.4);
   }
   .nav ul a.btn {
     display: inline-block;
@@ -475,7 +475,7 @@ main {
     margin-left: 2rem;
     margin-top: -8.5rem;
     max-width: 300px;
-    background: rgba(77, 13, 53, 0.93);
+    background: rgba(94, 12, 99, 0.93);
     backdrop-filter: blur(1rem);
     font-size: 2.4rem;
     line-height: 1.1;
@@ -512,7 +512,7 @@ main {
   font-size: 1.602rem;
   font-family: "dancing script";
   margin-bottom: 2rem;
-  color: #780951;
+  color: #83038f;
 }
 .play__body .content h2 {
   font-size: 1.602rem;
@@ -523,7 +523,7 @@ main {
   margin-bottom: 2rem;
 }
 .play__body .content h2 .highlight {
-  color: #780951;
+  color: #83038f;
 }
 .play__body .content h2 .speaker {
   font-weight: 400;
@@ -573,7 +573,7 @@ main {
   margin-top: -35rem;
 }
 .contact .bg {
-  background: #4d0d35;
+  background: #5e0c63;
   clip-path: polygon(0% 40%, 100% 0%, 100% 100%, 0% 100%);
   position: absolute;
   width: 100%;
@@ -606,7 +606,7 @@ main {
 }
 .contact__body .details .list .item .label {
   display: flex;
-  color: #780951;
+  color: #83038f;
   font-weight: 600;
   min-width: 117px;
 }
@@ -626,7 +626,7 @@ main {
   bottom: -1rem;
   height: 2px;
   width: 6rem;
-  background: #4d0d35;
+  background: #5e0c63;
 }
 .contact__body .details .socials {
   display: flex;
@@ -642,7 +642,7 @@ main {
   position: relative;
 }
 .contact__body .summary .bg {
-  background-image: radial-gradient(circle at 90% 100%, rgba(120, 9, 81, 0.3) 0%, #4d0d35 100%);
+  background-image: radial-gradient(circle at 90% 100%, rgba(131, 3, 143, 0.3) 0%, #5e0c63 100%);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -659,7 +659,7 @@ main {
   left: -1.2rem;
   transform: rotate(-5deg);
   bottom: 4px;
-  background: #780951;
+  background: #83038f;
   border-radius: 4px;
   z-index: -20;
 }
@@ -670,7 +670,7 @@ main {
   left: -2.2rem;
   transform: rotate(-10deg);
   bottom: 4px;
-  background: #de95bf;
+  background: #f198f5;
   border-radius: 4px;
   z-index: -30;
 }
