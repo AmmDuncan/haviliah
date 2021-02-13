@@ -406,6 +406,7 @@ main {
   }
   .nav.expand ul {
     max-height: 300px;
+    padding-top: 1rem;
   }
 }
 
