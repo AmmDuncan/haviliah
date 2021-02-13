@@ -358,7 +358,7 @@ main {
     font-size: 1rem;
   }
   .nav ul a.btn.show {
-    width: 100%;
+    max-width: 100%;
   }
   .nav-brand-container .nav-opener {
     align-self: stretch;
