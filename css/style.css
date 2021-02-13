@@ -201,7 +201,7 @@ main {
   position: fixed;
   width: 100%;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   background: #45052e;
   z-index: 5000;
   min-height: 60px;
@@ -279,6 +279,7 @@ main {
   .nav {
     flex-flow: column nowrap;
     align-items: flex-start;
+    justify-content: center;
   }
   .nav ul {
     flex-flow: column;
