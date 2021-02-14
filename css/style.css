@@ -320,7 +320,7 @@ main {
   padding: 1rem;
   border-radius: 4px;
   font-size: 1.881rem;
-  background: #45052e;
+  background: rgba(69, 5, 46, 0.9);
 }
 .learning__body .content {
   margin-left: 3rem;
