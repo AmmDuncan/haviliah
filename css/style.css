@@ -456,6 +456,7 @@ main {
   place-items: center;
   align-items: center;
   object-fit: cover;
+  object-position: center;
 }
 .header .hero .content {
   flex: 1 1 30%;
