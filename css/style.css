@@ -302,7 +302,6 @@ main {
   padding-top: 3rem;
 }
 .learning__body {
-  border: 1px solid rgba(120, 9, 81, 0.3);
   min-height: 6rem;
   border-radius: 4px;
   display: flex;
@@ -320,6 +319,16 @@ main {
   font-weight: 700;
   text-transform: uppercase;
   color: #17020f;
+}
+.learning__body .divider {
+  color: #780951;
+  border: 0.5px solid;
+}
+.learning__body .content {
+  margin-left: 2rem;
+}
+.learning__body .content ul {
+  margin-top: 1rem;
 }
 
 .policies.dark {
