@@ -12,6 +12,14 @@ main {
   padding: 6rem 0;
   width: 100%;
 
+  * > h2 {
+    font-weight: 700;
+    font-size: $font-size-heading-secondary;
+    text-transform: uppercase;
+    font-style: italic;
+    line-height: 1.2;
+  }
+
   @media only screen and (max-width: 576px) {
     padding: 4rem 0;
   }
