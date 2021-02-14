@@ -283,6 +283,8 @@ main {
 .code__body p {
   line-height: 1.6;
   text-align: center;
+  text-align: justify;
+  hyphens: auto;
   color: rgba(241, 229, 238, 0.9);
 }
 @media screen and (max-width: 768px) {
@@ -300,44 +302,50 @@ main {
   padding-top: 3rem;
 }
 .learning__body {
-  border: 1px solid rgba(199, 43, 4, 0.3);
+  border: 1px solid rgba(120, 9, 81, 0.3);
   min-height: 6rem;
   border-radius: 4px;
-  box-shadow: 0 1rem 2rem rgba(69, 5, 46, 0.15);
+  display: flex;
+  flex-flow: column;
 }
 .learning__body h2 {
   font-size: 1.881rem;
-  margin-left: 3rem;
+  text-align: center;
+  margin: auto;
+  min-width: 3rem;
   background: #fff;
   padding: 1rem;
-  margin-top: -3rem;
+  margin-top: -2rem;
   display: inline-block;
   font-weight: 700;
   text-transform: uppercase;
   color: #17020f;
 }
 
-.attendance__body {
+.policies.dark {
+  background: #f1e5ee;
+}
+.policies__body {
   display: flex;
   flex-flow: column;
   text-align: center;
 }
-.attendance__body > * {
+.policies__body > * {
   flex: 1 1 50%;
   padding: 2rem;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2rem;
 }
-.attendance__body > *:nth-child(2) {
+.policies__body > *:nth-child(2) {
   align-self: stretch;
 }
-.attendance__body h2 {
+.policies__body h2 {
   margin-bottom: 2.5rem;
   position: relative;
   max-width: 700px;
 }
-.attendance__body h2:after {
+.policies__body h2:after {
   content: "";
   position: absolute;
   background: #c72b04;
@@ -347,15 +355,18 @@ main {
   height: 2px;
   width: 92px;
 }
-.attendance__body p {
+.policies__body p {
   line-height: 1.6;
   max-width: 700px;
   text-align: justify;
   hyphens: auto;
 }
 @media screen and (max-width: 767px) {
-  .attendance__body {
+  .policies__body {
     flex-flow: column;
+  }
+  .policies__body > * {
+    padding: 1rem;
   }
 }
 

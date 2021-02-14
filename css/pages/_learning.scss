@@ -38,8 +38,8 @@
     p {
       line-height: 1.6;
       text-align: center;
-      //   text-align: justify;
-      //   hyphens: auto;
+      text-align: justify;
+      hyphens: auto;
       color: rgba($color-bg, 0.9);
     }
   }
@@ -62,17 +62,22 @@
   }
 
   &__body {
-    border: 1px solid rgba($color-secondary, 0.3);
+    border: 1px solid rgba($color-primary, 0.3);
     min-height: 6rem;
     border-radius: 4px;
-    box-shadow: 0 1rem 2rem rgba($color-primary-700, 0.15);
+    // box-shadow: 0 1rem 2rem rgba($color-primary-700, 0.15);
+    display: flex;
+    flex-flow: column;
 
     h2 {
       font-size: $font-size-heading-secondary;
-      margin-left: 3rem;
+      // margin-left: 2rem;
+      text-align: center;
+      margin: auto;
+      min-width: 3rem;
       background: #fff;
       padding: 1rem;
-      margin-top: -3rem;
+      margin-top: -2rem;
       display: inline-block;
       font-weight: 700;
       text-transform: uppercase;
@@ -81,7 +86,11 @@
   }
 }
 
-.attendance {
+.policies {
+  &.dark {
+    background: $color-bg;
+  }
+
   &__body {
     // max-width: 700px;
     display: flex;
@@ -131,6 +140,7 @@
       flex-flow: column;
 
       & > * {
+        padding: 1rem;
         &:nth-child(2) {
           // margin-top: 2rem;
         }
