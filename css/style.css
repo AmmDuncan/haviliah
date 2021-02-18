@@ -467,6 +467,11 @@ main {
   flex: 1 1 60%;
   text-transform: capitalize;
 }
+@media only screen and (max-width: 768px) {
+  .prospectus__body .content .item .label {
+    font-size: 14px;
+  }
+}
 .prospectus__body .content .item .sep {
   flex: 1 1 10%;
 }
