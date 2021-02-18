@@ -436,7 +436,7 @@ main {
   align-items: stretch;
   width: 100%;
   height: 100%;
-  transition: 0.5s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 .prospectus__body .content__container > * {
   margin-top: 1rem;
