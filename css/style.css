@@ -414,6 +414,11 @@ main {
 .prospectus {
   background: #f1e5ee;
 }
+@media screen and (max-width: 576px) {
+  .prospectus__body {
+    width: 100%;
+  }
+}
 .prospectus__body h2 {
   text-align: center;
   margin-bottom: 1rem;
@@ -447,6 +452,12 @@ main {
   flex: 1 1 95%;
   box-sizing: border-box;
   box-shadow: 0 2rem 3rem rgba(69, 5, 46, 0.1);
+}
+@media only screen and (max-width: 576px) {
+  .prospectus__body .content__container > * {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
 }
 .prospectus__body .content .item {
   display: flex;
