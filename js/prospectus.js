@@ -17,7 +17,7 @@ arrOfButtons.forEach((button, index) => {
 });
 
 document.addEventListener("scroll", function () {
-  if (pageYOffset >= 90) {
+  if (pageYOffset >= 170) {
     classes.classList.add("stick");
   } else {
     classes.classList.remove("stick");
