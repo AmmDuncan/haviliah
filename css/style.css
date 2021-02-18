@@ -532,7 +532,7 @@ main {
     height: 1250px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 576px) {
   .prospectus__body {
     font-size: 14px;
   }
