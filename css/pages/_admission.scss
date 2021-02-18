@@ -114,10 +114,6 @@
             font-weight: 700;
           }
         }
-
-        @media only screen and (max-width: 768px) {
-          font-size: 14px;
-        }
       }
       .by-parents {
         display: flex;
@@ -137,6 +133,9 @@
       @media only screen and (max-width: 768px) {
         height: 1250px;
       }
+    }
+    @media only screen and (max-width: 768px) {
+      font-size: 14px;
     }
   }
 }

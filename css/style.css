@@ -513,11 +513,6 @@ main {
 .prospectus__body .content .item:first-child .value {
   font-weight: 700;
 }
-@media only screen and (max-width: 768px) {
-  .prospectus__body .content .item {
-    font-size: 14px;
-  }
-}
 .prospectus__body .content .by-parents {
   display: flex;
   flex-flow: row wrap;
@@ -535,6 +530,11 @@ main {
 @media only screen and (max-width: 768px) {
   .prospectus__body .content {
     height: 1250px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .prospectus__body {
+    font-size: 14px;
   }
 }
 
