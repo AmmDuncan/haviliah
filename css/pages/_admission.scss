@@ -129,11 +129,11 @@
         }
       }
 
-      @media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 767px) {
         height: 1250px;
       }
     }
-    @media only screen and (max-width: 576px) {
+    @media only screen and (max-width: 575px) {
       font-size: 14px;
     }
   }
@@ -163,7 +163,7 @@
       transform: scale(1.05) translateY(-2px);
       box-shadow: 0 0.8rem 2rem rgba($color-primary-700, 0.2);
     }
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 575px) {
       font-size: 14px;
       margin: 0.3rem;
     }
@@ -186,7 +186,7 @@
       box-shadow: 0 0.4rem 0.05rem inset rgba($color-text-400, 0.2);
     }
 
-    @media only screen and (max-width: 576px) {
+    @media only screen and (max-width: 767px) {
       li.active {
         transform: translateY(1px) scale(0.99);
       }

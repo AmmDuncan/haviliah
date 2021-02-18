@@ -527,12 +527,12 @@ main {
     flex-flow: column;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .prospectus__body .content {
     height: 1250px;
   }
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 575px) {
   .prospectus__body {
     font-size: 14px;
   }
@@ -561,7 +561,7 @@ main {
   transform: scale(1.05) translateY(-2px);
   box-shadow: 0 0.8rem 2rem rgba(69, 5, 46, 0.2);
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 575px) {
   .classes li {
     font-size: 14px;
     margin: 0.3rem;
@@ -583,7 +583,7 @@ main {
   transform: translateY(2px);
   box-shadow: 0 0.4rem 0.05rem inset rgba(39, 28, 35, 0.2);
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 767px) {
   .classes.stick li.active {
     transform: translateY(1px) scale(0.99);
   }
