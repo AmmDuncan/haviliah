@@ -95,7 +95,7 @@
     }
   }
 
-  @media only screen and (max-width: 860px) {
+  @media only screen and (max-width: 1000px) {
     flex-flow: column nowrap;
     align-items: flex-start;
     justify-content: center;
@@ -190,7 +190,7 @@
       }
 
       ul {
-        max-height: 300px;
+        max-height: 400px;
         padding-top: 0.5rem;
 
         li {

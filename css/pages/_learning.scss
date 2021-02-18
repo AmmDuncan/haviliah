@@ -59,7 +59,7 @@
     padding-bottom: 0;
   }
   &:nth-child(2) {
-    padding-top: 0;
+    padding-top: 2rem;
     padding-bottom: 1rem;
   }
 
@@ -81,21 +81,26 @@
       font-weight: 700;
       text-transform: uppercase;
       // color: $color-text-700;
-      color: white;
+      // color: white;
     }
 
     summary {
       margin-bottom: 1rem;
-      color: white;
+      // color: white;
       padding: 1rem;
+      color: $color-text-700;
       // padding-left: 0;
       border-radius: 4px;
+      box-shadow: 0 1rem 2rem rgba($color-primary-700, 0.2);
       font-size: $font-size-heading-secondary;
-      background: rgba($color-primary-700, 0.9);
+      // background: rgba($color-primary-700, 0.9);
+      border-bottom: 4px solid rgba($color-primary-700, 0.9);
     }
 
     .content {
-      margin-left: 3rem;
+      background: rgba($color-primary-700, 0.1);
+      padding: 2rem;
+      padding-left: 3rem;
 
       ul {
         margin-top: 1rem;
