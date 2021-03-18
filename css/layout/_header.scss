@@ -53,9 +53,11 @@
       padding-bottom: 2rem;
 
       h1 {
-        background: #45052e;
+        // background: #45052e;
+        background: #fff;
+        box-shadow: 0 1rem 2rem rgba(69, 5, 46, .2);
         text-transform: uppercase;
-        color: white;
+        // color: white;
         padding: 1rem 2rem 1.25rem;
         box-sizing: border-box;
         // width: 350px;
@@ -69,12 +71,12 @@
         font-size: $font-size-display-1;
         border-radius: 4px;
 
-        .cursive {
-          font-family: "dancing script";
-          text-transform: capitalize;
-          font-size: $font-size-heading-main;
-          font-weight: 400;
-        }
+        // .cursive {
+        //   font-family: "dancing script";
+        //   text-transform: capitalize;
+        //   font-size: $font-size-heading-main;
+        //   font-weight: 400;
+        // }
 
         &:before {
           content: "";

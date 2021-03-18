@@ -807,9 +807,9 @@ main {
   padding-bottom: 2rem;
 }
 .header .hero .content h1 {
-  background: #45052e;
+  background: #fff;
+  box-shadow: 0 1rem 2rem rgba(69, 5, 46, 0.2);
   text-transform: uppercase;
-  color: white;
   padding: 1rem 2rem 1.25rem;
   box-sizing: border-box;
   align-self: flex-start;
@@ -821,12 +821,6 @@ main {
   line-height: 1;
   font-size: 3.247rem;
   border-radius: 4px;
-}
-.header .hero .content h1 .cursive {
-  font-family: "dancing script";
-  text-transform: capitalize;
-  font-size: 2.7rem;
-  font-weight: 400;
 }
 .header .hero .content h1:before {
   content: "";
