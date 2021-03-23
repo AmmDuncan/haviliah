@@ -876,13 +876,10 @@ main {
     margin-left: 2rem;
     margin-top: -8.5rem;
     max-width: 300px;
-    background: rgba(69, 5, 46, 0.93);
+    background: #fff;
     backdrop-filter: blur(1rem);
     font-size: 2.4rem;
     line-height: 1.1;
-  }
-  .header .hero .content h1 .cursive {
-    font-size: 1.881rem;
   }
   .header .hero .content h1:before {
     left: 0;

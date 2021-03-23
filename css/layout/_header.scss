@@ -142,14 +142,16 @@
           margin-left: 2rem;
           margin-top: -8.5rem;
           max-width: 300px;
-          background: rgba($color-primary-700, 0.93);
+          // background: rgba($color-primary-700, 0.93);
+          // color: rgba($color-primary-700, 0.93);
+          background: #fff;
           backdrop-filter: blur(1rem);
           font-size: $font-size-display-1-mob;
           line-height: 1.1;
 
-          .cursive {
-            font-size: $font-size-heading-secondary;
-          }
+          // .cursive {
+          //   font-size: $font-size-heading-secondary;
+          // }
 
           &:before {
             left: 0;
