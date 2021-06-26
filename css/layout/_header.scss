@@ -54,15 +54,15 @@
 
       h1 {
         // background: #45052e;
-        background: #fff;
-        box-shadow: 0 1rem 2rem rgba(69, 5, 46, .2);
+        // background: #fff;
+        // box-shadow: 0 1rem 2rem rgba(69, 5, 46, .2);
         text-transform: uppercase;
         // color: white;
         padding: 1rem 2rem 1.25rem;
         box-sizing: border-box;
         // width: 350px;
         align-self: flex-start;
-        margin-left: -6rem;
+        // margin-left: -6rem;
         z-index: 10;
         position: relative;
         font-family: "barlow";
@@ -83,7 +83,6 @@
           height: 100%;
           width: 4px;
           border-radius: 4px;
-          background: #c72b04;
           position: absolute;
           // left: -1.5rem;
           left: 0;
@@ -157,6 +156,7 @@
             left: 0;
             width: 0.3rem;
             border-radius: 0;
+            background: #c72b04;
           }
         }
       }

@@ -807,13 +807,10 @@ main {
   padding-bottom: 2rem;
 }
 .header .hero .content h1 {
-  background: #fff;
-  box-shadow: 0 1rem 2rem rgba(69, 5, 46, 0.2);
   text-transform: uppercase;
   padding: 1rem 2rem 1.25rem;
   box-sizing: border-box;
   align-self: flex-start;
-  margin-left: -6rem;
   z-index: 10;
   position: relative;
   font-family: "barlow";
@@ -827,7 +824,6 @@ main {
   height: 100%;
   width: 4px;
   border-radius: 4px;
-  background: #c72b04;
   position: absolute;
   left: 0;
   top: 0;
@@ -885,6 +881,7 @@ main {
     left: 0;
     width: 0.3rem;
     border-radius: 0;
+    background: #c72b04;
   }
   .header .hero #slider {
     flex-basis: 300px;
